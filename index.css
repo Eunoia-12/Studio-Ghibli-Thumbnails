@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.thumbnail-container{
+    margin: 10px 15px;
+    height: 100vh;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
+#more-info{
+    margin: 11% auto;
+    display: none;
+}
+
+.img{
+    width: 9%;
+    margin: 1.5rem;
+}
+
+#film-image {
+    display: block;
+    margin:  auto;
+    width: 50%;
+}
+
+.description {
+    margin: 1.5% 10%;
+}
+
+h2 {
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000;
+}
+
+button {
+    border: none;
+    padding: 1rem 2.5rem;
+    font-size: medium;
+    background-color: rgb(55,55,55);
+    color: aliceblue;
+    border-radius: 2rem;
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+}
+
+button:hover {
+    border: 0.1em solid  rgb(55,55,55);
+    background-color: #fff;
+    color: #000;
+}
+
+
